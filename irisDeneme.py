@@ -90,7 +90,7 @@ plt.plot(x_train, y_train, c='b')
 plt.plot(x_test, dt.predict(x_test), c='y', marker='o', markeredgecolor ='g')
 plt.show()
 
-#RandomDecisionTree
+#Random Forest
 rf = RandomForestRegressor(n_estimators = 10, random_state=0)
 rf.fit(x_train, y_train)
 
